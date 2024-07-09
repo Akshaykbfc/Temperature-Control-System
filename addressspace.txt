@@ -1,0 +1,128 @@
+const temp1 = namespace.addVariable({
+    "organizedBy": dynVar,
+    "browseName": "Input: Temperature_1",
+    "nodeId": "ns=1;s=T1",
+    "dataType": "Double",
+    "value": {
+          "dataType": DataType.Double,
+          "value": 40 
+    }
+});
+const conerr1 = namespace.addVariable({
+    "organizedBy": dynVar,
+    "browseName": "ControllerError_1",
+    "nodeId": "ns=1;s=CE1",
+    "dataType": "Double"
+});
+const manvar1 = namespace.addVariable({
+    "organizedBy": dynVar,
+    "browseName": "ManipulatedVariable_1",
+    "nodeId": "ns=1;s=MV1",
+    "dataType": "Double"
+});
+const acttemp1 = namespace.addVariable({
+    "organizedBy": dynVar,
+    "browseName": "Output: actualTemperature_1",
+    "nodeId": "ns=1;s=H1",
+    "dataType": "Double"
+});
+const led1 = namespace.addVariable({
+    "organizedBy": dynVar,
+    "browseName": "LED",
+    "nodeId": "ns=1;s=led",
+    "dataType": "Boolean",
+    "value": {
+          "dataType": DataType.Boolean,
+          "value": false
+    }
+});
+const intki = namespace.addVariable({
+    "organizedBy": perf,
+    "browseName": "Integral: Ki",
+    "nodeId": "ns=1;s=ki",
+    "dataType": "Double",
+    "value": {
+          "dataType": DataType.Double,
+          "value": 0.0088
+    }
+});
+const intkp = namespace.addVariable({
+    "organizedBy": perf,
+    "browseName": "Proportional: Kp",
+    "nodeId": "ns=1;s=kp",
+    "dataType": "Double",
+    "value": {
+          "dataType": DataType.Double,
+          "value": 1.6
+    }
+});
+const temp1limit = namespace.addVariable({
+    "organizedBy": par,
+    "browseName": "Temperature_1_High_Limit",
+    "nodeId": "ns=1;s=T1_limit",
+    "dataType": "Double",
+    "value": {
+          "dataType": DataType.Double,
+          "value": 60 
+    }
+});
+const manname = namespace.addVariable({
+    "organizedBy": nameplate,
+    "browseName": "ManufacturerName",
+    "nodeId": "ns=1;s=manufacturer_name",
+    "dataType": "String",
+    "value": {
+          "dataType": DataType.String,
+          "value": 'Byu Prism' 
+    }
+});
+const manprodes = namespace.addVariable({
+    "organizedBy": nameplate,
+    "browseName": "ManufacturerProductDesignation",
+    "nodeId": "ns=1;s=manufacturer_product_designation",
+    "dataType": "String",
+    "value": {
+          "dataType": DataType.String,
+          "value": 'Arduino Temperature Control Lab'
+    }
+});
+const manprofam = namespace.addVariable({
+    "organizedBy": nameplate,
+    "browseName": "ManufacturerProductFamily",
+    "nodeId": "ns=1;s=manufacturer_product_family",
+    "dataType": "String",
+    "value": {
+          "dataType": DataType.String,
+          "value": 'Educational Equipment'
+    }
+});
+const sernum = namespace.addVariable({
+    "organizedBy": nameplate,
+    "browseName": "SerialNumber",
+    "nodeId": "ns=1;s=serial_number",
+    "dataType": "String",
+    "value": {
+          "dataType": DataType.String,
+          "value": 'F7DH4HJ'
+    }
+});
+const yoc = namespace.addVariable({
+    "organizedBy": nameplate,
+    "browseName": "YearOfConstruction",
+    "nodeId": "ns=1;s=year_of_construction",
+    "dataType": "String",
+    "value": {
+          "dataType": DataType.String,
+          "value": '2020'
+    }
+});
+const addr = namespace.addVariable({
+    "organizedBy": nameplate,
+    "browseName": "Address",
+    "nodeId": "ns=1;s=address",
+    "dataType": "String",
+    "value": {
+          "dataType": DataType.String,
+          "value": 'Brigham Young University,Provo, UT 84602'
+    }
+});
